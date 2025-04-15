@@ -6,7 +6,7 @@ class Solution {
         d=d*10+x%10;
         x=x/10;
         }
-        if(d==y&&y>0)
+        if(d==y&&y>=0)
         return true;
         else
         return false;    
